@@ -1,0 +1,13 @@
+.f{
+    background-color: black;
+    color: white;
+}
+.f p{
+    margin: 0;
+}
+.fab
+{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 20px;
+}

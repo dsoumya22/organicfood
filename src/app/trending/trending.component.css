@@ -1,0 +1,37 @@
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    margin-top: 20px;
+    }
+    .btn1:hover{
+        background-color:greenyellow;
+        transition: 0.5s;
+    }
+    .card:hover{
+        box-shadow: -2px -1px 26px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 26px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 26px -3px rgba(0,0,0,0.75);
+    transition: 0.5s;
+    background-color: yellow;
+    }
+    .a{
+        background-image: url(https://image.shutterstock.com/image-photo/blur-soft-focus-grass-leaf-260nw-212369098.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+    }
+    .card{
+        background-color: teal;
+    }
+    h6{
+        color: white;
+    }
+    p{
+        color: white;
+    }

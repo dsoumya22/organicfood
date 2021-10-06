@@ -1,0 +1,28 @@
+
+
+.a{
+    background-image: url(https://image.shutterstock.com/image-photo/blur-soft-focus-grass-leaf-260nw-212369098.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item{
+    background-image: url(https://image.shutterstock.com/image-photo/blur-soft-focus-grass-leaf-260nw-212369098.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 120px;
+}
+h3{
+    color: black;
+}
+p{
+    color: black;
+}
+.carousel-indicators li{
+background-color: black;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+}
+.carousel-control-next-icon{
+    background-color: black;
+}

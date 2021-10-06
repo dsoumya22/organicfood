@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+
+</head>
+<body>
+  <marquee behaviour="alternate" direction="left" scrollamount="25" scrolldelay="10" loop="infinite">
+  <h1>ORGANIC FOOD
+    <img src="./assets/images/og logo.png" alt="" class="rounded-circle" height="100px" width="100px">
+</h1>
+</marquee>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">
+      <img src="./assets/images/og logo.png" alt="" class="rounded-circle" height="40px" width="40px">
+    </a>
+    
+    <!-- Links -->
+    <ul class="navbar-nav m-auto my-2 my-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/home"><i class="fas fa-home"></i>Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/trending"><i class="fas fa-poll-h"></i>Trending</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" routerLink="/store" id="navbardrop" data-toggle="dropdown">
+          <i class="fas fa-store"></i>Store
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" routerLink="/store/exporeourstore">ExporeOurStore</a>
+        </div>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" routerLink="/organic"><i class="fas fa-bacterium"></i>Organic</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact"><i class="fas fa-phone-volume"></i>Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/signin"><i class="fas fa-sign-in-alt"></i>Signin</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/signout"><i class="fas fa-sign-out-alt"></i>Signout</a>
+      </li>
+
+    </ul>
+    <form class="d-flex">
+      <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+    </form>
+   </nav>
+   <router-outlet></router-outlet>
+
+</body>
+</html>
+<app-footer></app-footer>
+
+
